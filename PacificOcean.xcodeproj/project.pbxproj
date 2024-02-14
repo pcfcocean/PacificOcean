@@ -67,7 +67,7 @@
 		F524FF052B7CC4F7008CBAB2 /* AppleTutorials.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AppleTutorials.md; sourceTree = "<group>"; };
 		F524FF072B7CC639008CBAB2 /* Vision.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Vision.md; sourceTree = "<group>"; };
 		F524FF092B7CC6E5008CBAB2 /* Go.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Go.md; sourceTree = "<group>"; };
-		F524FF0B2B7CC71C008CBAB2 /* Proxy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Proxy.md; sourceTree = "<group>"; };
+		F524FF0B2B7CC71C008CBAB2 /* Proxy снифферы.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Proxy снифферы.md"; sourceTree = "<group>"; };
 		F524FF0C2B7CC74E008CBAB2 /* JWT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = JWT.md; sourceTree = "<group>"; };
 		F524FF0D2B7CC809008CBAB2 /* Многопоточность.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Многопоточность.md"; sourceTree = "<group>"; };
 		F524FF0F2B7CC85D008CBAB2 /* GCD.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GCD.md; sourceTree = "<group>"; };
@@ -78,6 +78,16 @@
 		F524FF142B7CD707008CBAB2 /* RegularExpression.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RegularExpression.md; sourceTree = "<group>"; };
 		F524FF152B7CD784008CBAB2 /* Работа с PDF.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Работа с PDF.md"; sourceTree = "<group>"; };
 		F524FF162B7CD830008CBAB2 /* Notifications.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Notifications.md; sourceTree = "<group>"; };
+		F524FF172B7CDA0B008CBAB2 /* UserDefaults.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UserDefaults.md; sourceTree = "<group>"; };
+		F524FF182B7CDABA008CBAB2 /* CoreData.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CoreData.md; sourceTree = "<group>"; };
+		F524FF192B7CDB09008CBAB2 /* Git.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Git.md; sourceTree = "<group>"; };
+		F524FF1B2B7CDB75008CBAB2 /* Networking.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Networking.md; sourceTree = "<group>"; };
+		F524FF1C2B7CDEB3008CBAB2 /* Swift Package Manager.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Swift Package Manager.md"; sourceTree = "<group>"; };
+		F524FF1D2B7CDF0C008CBAB2 /* Common.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Common.md; sourceTree = "<group>"; };
+		F524FF1E2B7CE024008CBAB2 /* Swift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Swift.md; sourceTree = "<group>"; };
+		F524FF1F2B7CE09F008CBAB2 /* String.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = String.md; sourceTree = "<group>"; };
+		F524FF202B7CE0BF008CBAB2 /* DateTime.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DateTime.md; sourceTree = "<group>"; };
+		F524FF212B7CE237008CBAB2 /* Timer.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Timer.md; sourceTree = "<group>"; };
 		F54B40D32B38AAEA00478B67 /* PacificOcean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PacificOcean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54B40D62B38AAEA00478B67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F54B40D82B38AAEA00478B67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -186,9 +196,12 @@
 			isa = PBXGroup;
 			children = (
 				F59113062B767DEF00587656 /* Swift */,
+				F524FF1E2B7CE024008CBAB2 /* Swift.md */,
 				F524FF092B7CC6E5008CBAB2 /* Go.md */,
-				F524FF0B2B7CC71C008CBAB2 /* Proxy.md */,
+				F524FF0B2B7CC71C008CBAB2 /* Proxy снифферы.md */,
 				F524FF0C2B7CC74E008CBAB2 /* JWT.md */,
+				F524FF192B7CDB09008CBAB2 /* Git.md */,
+				F524FF1D2B7CDF0C008CBAB2 /* Common.md */,
 			);
 			path = Programming;
 			sourceTree = "<group>";
@@ -280,6 +293,13 @@
 				F524FF142B7CD707008CBAB2 /* RegularExpression.md */,
 				F524FF152B7CD784008CBAB2 /* Работа с PDF.md */,
 				F524FF162B7CD830008CBAB2 /* Notifications.md */,
+				F524FF172B7CDA0B008CBAB2 /* UserDefaults.md */,
+				F524FF182B7CDABA008CBAB2 /* CoreData.md */,
+				F524FF1B2B7CDB75008CBAB2 /* Networking.md */,
+				F524FF1C2B7CDEB3008CBAB2 /* Swift Package Manager.md */,
+				F524FF1F2B7CE09F008CBAB2 /* String.md */,
+				F524FF202B7CE0BF008CBAB2 /* DateTime.md */,
+				F524FF212B7CE237008CBAB2 /* Timer.md */,
 			);
 			path = Swift;
 			sourceTree = "<group>";

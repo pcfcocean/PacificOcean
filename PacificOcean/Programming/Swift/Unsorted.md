@@ -20,3 +20,7 @@ https://medium.com/@vipandey54
 
 Топ 20 вопросов на iOS собеседовании. Уровень Middle
 https://ios-interview.ru/top-20-middle-ios-interview-questions/#h-1-посмотрите-на-код-что-выведется-в-консоль-после-выполнения-этого-код
+
+A Background Repeating Timer in Swift
+https://medium.com/over-engineering/a-background-repeating-timer-in-swift-412cecfd2ef9
+

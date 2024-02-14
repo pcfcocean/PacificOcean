@@ -1,5 +1,14 @@
 #  Layouts
 
+Understanding Auto Layout
+https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/index.html#//apple_ref/doc/uid/TP40010853-CH7-SW1
+
+Layout
+https://developer.apple.com/design/human-interface-guidelines/layout
+
+Anatomy of a Constraint
+https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/AnatomyofaConstraint.html
+
 How to create beautiful Stretchy Layouts on iOS using Auto Layout and SnapKit
 https://medium.com/free-code-camp/tutorial-creating-stretchy-layouts-on-ios-using-auto-layout-3fa974fa5e28
 
