@@ -14,3 +14,8 @@ https://bitbucket.org/EldaarLiis/internship-tasks/src/develop/
 
 Alexsander Intership Realm
 https://bitbucket.org/sashapustik/realm/src/master/26/Modules/CreateViewController.swift
+
+#  Meetaps
+
+Harbros Meetup
+https://www.youtube.com/@harbosmeetup5288/featured

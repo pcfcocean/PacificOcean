@@ -19,3 +19,6 @@ https://medium.com/@roykronenfeld/semaphores-in-swift-e296ea80f860
 
 GCD Primitives in Depth: Serial Queue
 https://shchukin-alex.medium.com/gcd-primitives-in-depth-serial-queue-c255cf98cf55
+
+DispatchSemaphore in swift
+https://mobikul.com/dispatchsemaphore-in-swift/

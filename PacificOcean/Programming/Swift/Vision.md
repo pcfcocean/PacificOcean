@@ -9,3 +9,8 @@ https://stackoverflow.com/questions/73770477/vndetectbarcodesrequest-not-working
 DKQRReader
 https://github.com/DineshkumarKandasamy/DKQRReader/blob/main/DKQRReader/Controller/ViewController.swift
 
+Камера как сканер штрих-кодов: проблемы, инструменты и эксперименты
+https://habr.com/ru/companies/ozontech/articles/793590/
+
+Распознание блоков текста в IOS-приложении с помощью Vision
+https://habr.com/ru/articles/542816/

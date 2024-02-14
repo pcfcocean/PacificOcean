@@ -1,7 +1,16 @@
 #  Swift
 
+https://www.swift.org
+
 Documentation Archive
 https://developer.apple.com/library/archive/navigation/
+
+Swift Evolution
+https://www.swift.org/swift-evolution/
+
+Документация
+https://swiftbook.ru/content/docs/
+
 
 # Стиль написания кода на Swift
 

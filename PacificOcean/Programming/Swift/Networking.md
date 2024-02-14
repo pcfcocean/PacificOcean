@@ -57,7 +57,8 @@ https://github.com/Moya/Moya/issues/1426
 Как в swift преобразовать кодироку строки?
 https://qna.habr.com/q/544601
 
-
+Downloading files from websites
+https://developer.apple.com/documentation/foundation/url_loading_system/downloading_files_from_websites
 
 #  JSON
 

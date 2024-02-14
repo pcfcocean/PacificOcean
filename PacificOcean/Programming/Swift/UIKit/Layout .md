@@ -6,6 +6,9 @@ https://developer.apple.com/library/archive/documentation/UserExperience/Concept
 Layout
 https://developer.apple.com/design/human-interface-guidelines/layout
 
+SnapKit for iOS: Constraints in a Snap
+https://www.kodeco.com/3225401-snapkit-for-ios-constraints-in-a-snap
+
 Anatomy of a Constraint
 https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/AnatomyofaConstraint.html
 
@@ -24,3 +27,11 @@ https://habr.com/ru/articles/536136/
 Автопозиционирование Часть 1: IOS 8
 https://swiftbook.ru/post/tutorials/avtopozicionirovanie-chast-1-ios-8/
 
+systemLayoutSizeFitting
+https://developer.apple.com/documentation/uikit/uiview/1622624-systemlayoutsizefitting
+
+Объяснение взаимосвязи между методами UIView setNeedsLayout, layoutIfNeeded и layoutSubviews
+https://russianblogs.com/article/91051379780/
+
+Математические основы Auto Layout
+https://habr.com/ru/companies/oleg-bunin/articles/437584/

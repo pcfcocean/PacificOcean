@@ -61,8 +61,7 @@
 		F524FEFD2B7CC1AC008CBAB2 /* UITableView.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UITableView.md; sourceTree = "<group>"; };
 		F524FEFE2B7CC236008CBAB2 /* UIView.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UIView.md; sourceTree = "<group>"; };
 		F524FEFF2B7CC2E9008CBAB2 /* UINavigation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UINavigation.md; sourceTree = "<group>"; };
-		F524FF022B7CC33E008CBAB2 /* Internship.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Internship.md; sourceTree = "<group>"; };
-		F524FF032B7CC3F8008CBAB2 /* Meetaps.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Meetaps.md; sourceTree = "<group>"; };
+		F524FF022B7CC33E008CBAB2 /* Harbos.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Harbos.md; sourceTree = "<group>"; };
 		F524FF042B7CC490008CBAB2 /* SwiftUI.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SwiftUI.md; sourceTree = "<group>"; };
 		F524FF052B7CC4F7008CBAB2 /* AppleTutorials.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AppleTutorials.md; sourceTree = "<group>"; };
 		F524FF072B7CC639008CBAB2 /* Vision.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Vision.md; sourceTree = "<group>"; };
@@ -88,6 +87,22 @@
 		F524FF1F2B7CE09F008CBAB2 /* String.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = String.md; sourceTree = "<group>"; };
 		F524FF202B7CE0BF008CBAB2 /* DateTime.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DateTime.md; sourceTree = "<group>"; };
 		F524FF212B7CE237008CBAB2 /* Timer.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Timer.md; sourceTree = "<group>"; };
+		F524FF222B7CE525008CBAB2 /* DeepLinking.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DeepLinking.md; sourceTree = "<group>"; };
+		F524FF232B7CE55E008CBAB2 /* Патерны.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Патерны.md"; sourceTree = "<group>"; };
+		F524FF242B7CE663008CBAB2 /* curl.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = curl.md; sourceTree = "<group>"; };
+		F524FF252B7CE6ED008CBAB2 /* Операторы (map, compact и т.д.).md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Операторы (map, compact и т.д.).md"; sourceTree = "<group>"; };
+		F524FF262B7CE734008CBAB2 /* Clousures, Delegation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Clousures, Delegation.md"; sourceTree = "<group>"; };
+		F524FF272B7CE78E008CBAB2 /* Core Graphics .md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Core Graphics .md"; sourceTree = "<group>"; };
+		F524FF282B7CE7FC008CBAB2 /* UIGestureRecognizer и UIBezierPaths.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "UIGestureRecognizer и UIBezierPaths.md"; sourceTree = "<group>"; };
+		F524FF292B7CEA48008CBAB2 /* Code Signing & Provisioning.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Code Signing & Provisioning.md"; sourceTree = "<group>"; };
+		F524FF2A2B7CEB0A008CBAB2 /* Testing.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Testing.md; sourceTree = "<group>"; };
+		F524FF2B2B7CEB64008CBAB2 /* UIImage.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UIImage.md; sourceTree = "<group>"; };
+		F524FF2C2B7CEB8A008CBAB2 /* Оффлайн-режим на iOS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Оффлайн-режим на iOS.md"; sourceTree = "<group>"; };
+		F524FF2D2B7CECCD008CBAB2 /* Xcode Server & CI & CD.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Xcode Server & CI & CD.md"; sourceTree = "<group>"; };
+		F524FF2E2B7CED2E008CBAB2 /* XCTest.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = XCTest.md; sourceTree = "<group>"; };
+		F524FF2F2B7CEE3E008CBAB2 /* UIButton.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UIButton.md; sourceTree = "<group>"; };
+		F524FF302B7CEE81008CBAB2 /* UIActivityIndicator.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UIActivityIndicator.md; sourceTree = "<group>"; };
+		F524FF312B7CEF1E008CBAB2 /* Библиотеки.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Библиотеки.md"; sourceTree = "<group>"; };
 		F54B40D32B38AAEA00478B67 /* PacificOcean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PacificOcean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54B40D62B38AAEA00478B67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F54B40D82B38AAEA00478B67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -159,37 +174,16 @@
 				F524FEF92B7CBF4E008CBAB2 /* UIScrollView.md */,
 				F524FEFA2B7CC057008CBAB2 /* UICollectionView.md */,
 				F524FEFB2B7CC0C9008CBAB2 /* UIAlertController.md */,
+				F524FF282B7CE7FC008CBAB2 /* UIGestureRecognizer и UIBezierPaths.md */,
 				F524FEFC2B7CC160008CBAB2 /* Layout .md */,
 				F524FEFD2B7CC1AC008CBAB2 /* UITableView.md */,
 				F524FEFE2B7CC236008CBAB2 /* UIView.md */,
 				F524FEFF2B7CC2E9008CBAB2 /* UINavigation.md */,
+				F524FF2B2B7CEB64008CBAB2 /* UIImage.md */,
+				F524FF2F2B7CEE3E008CBAB2 /* UIButton.md */,
+				F524FF302B7CEE81008CBAB2 /* UIActivityIndicator.md */,
 			);
 			path = UIKit;
-			sourceTree = "<group>";
-		};
-		F524FF002B7CC302008CBAB2 /* SwiftUI */ = {
-			isa = PBXGroup;
-			children = (
-				F524FF042B7CC490008CBAB2 /* SwiftUI.md */,
-			);
-			path = SwiftUI;
-			sourceTree = "<group>";
-		};
-		F524FF012B7CC325008CBAB2 /* Harbos */ = {
-			isa = PBXGroup;
-			children = (
-				F524FF022B7CC33E008CBAB2 /* Internship.md */,
-				F524FF032B7CC3F8008CBAB2 /* Meetaps.md */,
-			);
-			path = Harbos;
-			sourceTree = "<group>";
-		};
-		F524FF062B7CC62B008CBAB2 /* Vision */ = {
-			isa = PBXGroup;
-			children = (
-				F524FF072B7CC639008CBAB2 /* Vision.md */,
-			);
-			path = Vision;
 			sourceTree = "<group>";
 		};
 		F524FF082B7CC6B0008CBAB2 /* Programming */ = {
@@ -202,6 +196,9 @@
 				F524FF0C2B7CC74E008CBAB2 /* JWT.md */,
 				F524FF192B7CDB09008CBAB2 /* Git.md */,
 				F524FF1D2B7CDF0C008CBAB2 /* Common.md */,
+				F524FF242B7CE663008CBAB2 /* curl.md */,
+				F524FF272B7CE78E008CBAB2 /* Core Graphics .md */,
+				F524FF2C2B7CEB8A008CBAB2 /* Оффлайн-режим на iOS.md */,
 			);
 			path = Programming;
 			sourceTree = "<group>";
@@ -279,13 +276,13 @@
 			isa = PBXGroup;
 			children = (
 				F524FF0E2B7CC83E008CBAB2 /* Многопоточность */,
-				F524FF062B7CC62B008CBAB2 /* Vision */,
-				F524FF012B7CC325008CBAB2 /* Harbos */,
 				F524FEF32B7CBD44008CBAB2 /* UIKit */,
-				F524FF002B7CC302008CBAB2 /* SwiftUI */,
+				F524FF042B7CC490008CBAB2 /* SwiftUI.md */,
 				F524FEF52B7CBDCA008CBAB2 /* Unsorted.md */,
+				F524FF022B7CC33E008CBAB2 /* Harbos.md */,
 				F59113082B767E4A00587656 /* Алгоритмы.md */,
 				F591130B2B767EDF00587656 /* Архитектуры.md */,
+				F524FF232B7CE55E008CBAB2 /* Патерны.md */,
 				F524FEF12B7CBC95008CBAB2 /* Дженерики.md */,
 				F524FF052B7CC4F7008CBAB2 /* AppleTutorials.md */,
 				F524FF112B7CD445008CBAB2 /* RxSwift.md */,
@@ -300,6 +297,15 @@
 				F524FF1F2B7CE09F008CBAB2 /* String.md */,
 				F524FF202B7CE0BF008CBAB2 /* DateTime.md */,
 				F524FF212B7CE237008CBAB2 /* Timer.md */,
+				F524FF072B7CC639008CBAB2 /* Vision.md */,
+				F524FF222B7CE525008CBAB2 /* DeepLinking.md */,
+				F524FF252B7CE6ED008CBAB2 /* Операторы (map, compact и т.д.).md */,
+				F524FF262B7CE734008CBAB2 /* Clousures, Delegation.md */,
+				F524FF292B7CEA48008CBAB2 /* Code Signing & Provisioning.md */,
+				F524FF2A2B7CEB0A008CBAB2 /* Testing.md */,
+				F524FF2D2B7CECCD008CBAB2 /* Xcode Server & CI & CD.md */,
+				F524FF2E2B7CED2E008CBAB2 /* XCTest.md */,
+				F524FF312B7CEF1E008CBAB2 /* Библиотеки.md */,
 			);
 			path = Swift;
 			sourceTree = "<group>";

@@ -66,3 +66,6 @@ https://tproger.ru/translations/zachem-nuzhno-reaktivnoe-programmirovanie-na-swi
 
 RxSwift: работа с GUI
 https://habr.com/ru/articles/283128/
+
+Повышающие производительность операторы наблюдаемых
+https://medium.com/@kosmogradsky/повышающие-производительность-операторы-наблюдаемых-f9de63449d30
