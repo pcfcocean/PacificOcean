@@ -37,7 +37,6 @@
 		F5E8C0922B47F88F00D37702 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E8C0912B47F88F00D37702 /* ViewController1.swift */; };
 		F5E8C0942B47F89D00D37702 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E8C0932B47F89D00D37702 /* ViewController2.swift */; };
 		F5EE60F52B402176006658C4 /* FastCodeCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EE60F42B402176006658C4 /* FastCodeCheck.swift */; };
-		F5FB8DAE2B65792300A6EA6F /* AppleTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FB8DAD2B65792300A6EA6F /* AppleTutorials.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +47,37 @@
 		F51F4AA12B3C928400F56A7D /* ForEachFor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachFor.swift; sourceTree = "<group>"; };
 		F51F4AA32B3C934F00F56A7D /* ReaderAndWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderAndWriter.swift; sourceTree = "<group>"; };
 		F5213F682B71270C00D876D6 /* MASK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MASK.swift; sourceTree = "<group>"; };
+		F524FEF12B7CBC95008CBAB2 /* Дженерики.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Дженерики.md"; sourceTree = "<group>"; };
+		F524FEF22B7CBD29008CBAB2 /* Keyboard.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Keyboard.md; sourceTree = "<group>"; };
+		F524FEF42B7CBD93008CBAB2 /* BottomSheet.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BottomSheet.md; sourceTree = "<group>"; };
+		F524FEF52B7CBDCA008CBAB2 /* Unsorted.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Unsorted.md; sourceTree = "<group>"; };
+		F524FEF62B7CBE31008CBAB2 /* LifeCycle.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LifeCycle.md; sourceTree = "<group>"; };
+		F524FEF72B7CBE90008CBAB2 /* UITextField.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UITextField.md; sourceTree = "<group>"; };
+		F524FEF82B7CBECD008CBAB2 /* UISearchController and UISearchBar.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "UISearchController and UISearchBar.md"; sourceTree = "<group>"; };
+		F524FEF92B7CBF4E008CBAB2 /* UIScrollView.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UIScrollView.md; sourceTree = "<group>"; };
+		F524FEFA2B7CC057008CBAB2 /* UICollectionView.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UICollectionView.md; sourceTree = "<group>"; };
+		F524FEFB2B7CC0C9008CBAB2 /* UIAlertController.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UIAlertController.md; sourceTree = "<group>"; };
+		F524FEFC2B7CC160008CBAB2 /* Layout .md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Layout .md"; sourceTree = "<group>"; };
+		F524FEFD2B7CC1AC008CBAB2 /* UITableView.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UITableView.md; sourceTree = "<group>"; };
+		F524FEFE2B7CC236008CBAB2 /* UIView.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UIView.md; sourceTree = "<group>"; };
+		F524FEFF2B7CC2E9008CBAB2 /* UINavigation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UINavigation.md; sourceTree = "<group>"; };
+		F524FF022B7CC33E008CBAB2 /* Internship.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Internship.md; sourceTree = "<group>"; };
+		F524FF032B7CC3F8008CBAB2 /* Meetaps.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Meetaps.md; sourceTree = "<group>"; };
+		F524FF042B7CC490008CBAB2 /* SwiftUI.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SwiftUI.md; sourceTree = "<group>"; };
+		F524FF052B7CC4F7008CBAB2 /* AppleTutorials.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AppleTutorials.md; sourceTree = "<group>"; };
+		F524FF072B7CC639008CBAB2 /* Vision.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Vision.md; sourceTree = "<group>"; };
+		F524FF092B7CC6E5008CBAB2 /* Go.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Go.md; sourceTree = "<group>"; };
+		F524FF0B2B7CC71C008CBAB2 /* Proxy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Proxy.md; sourceTree = "<group>"; };
+		F524FF0C2B7CC74E008CBAB2 /* JWT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = JWT.md; sourceTree = "<group>"; };
+		F524FF0D2B7CC809008CBAB2 /* Многопоточность.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Многопоточность.md"; sourceTree = "<group>"; };
+		F524FF0F2B7CC85D008CBAB2 /* GCD.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GCD.md; sourceTree = "<group>"; };
+		F524FF102B7CD342008CBAB2 /* AsyncAwait.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AsyncAwait.md; sourceTree = "<group>"; };
+		F524FF112B7CD445008CBAB2 /* RxSwift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RxSwift.md; sourceTree = "<group>"; };
+		F524FF122B7CD463008CBAB2 /* Combine.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Combine.md; sourceTree = "<group>"; };
+		F524FF132B7CD6D4008CBAB2 /* UIKit.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UIKit.md; sourceTree = "<group>"; };
+		F524FF142B7CD707008CBAB2 /* RegularExpression.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RegularExpression.md; sourceTree = "<group>"; };
+		F524FF152B7CD784008CBAB2 /* Работа с PDF.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Работа с PDF.md"; sourceTree = "<group>"; };
+		F524FF162B7CD830008CBAB2 /* Notifications.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Notifications.md; sourceTree = "<group>"; };
 		F54B40D32B38AAEA00478B67 /* PacificOcean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PacificOcean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54B40D62B38AAEA00478B67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F54B40D82B38AAEA00478B67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,7 +106,6 @@
 		F5E8C0912B47F88F00D37702 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		F5E8C0932B47F89D00D37702 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		F5EE60F42B402176006658C4 /* FastCodeCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastCodeCheck.swift; sourceTree = "<group>"; };
-		F5FB8DAD2B65792300A6EA6F /* AppleTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleTutorials.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +137,72 @@
 			path = TemporaryDirectory;
 			sourceTree = "<group>";
 		};
+		F524FEF32B7CBD44008CBAB2 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F524FF132B7CD6D4008CBAB2 /* UIKit.md */,
+				F524FEF22B7CBD29008CBAB2 /* Keyboard.md */,
+				F524FEF42B7CBD93008CBAB2 /* BottomSheet.md */,
+				F524FEF62B7CBE31008CBAB2 /* LifeCycle.md */,
+				F524FEF72B7CBE90008CBAB2 /* UITextField.md */,
+				F524FEF82B7CBECD008CBAB2 /* UISearchController and UISearchBar.md */,
+				F524FEF92B7CBF4E008CBAB2 /* UIScrollView.md */,
+				F524FEFA2B7CC057008CBAB2 /* UICollectionView.md */,
+				F524FEFB2B7CC0C9008CBAB2 /* UIAlertController.md */,
+				F524FEFC2B7CC160008CBAB2 /* Layout .md */,
+				F524FEFD2B7CC1AC008CBAB2 /* UITableView.md */,
+				F524FEFE2B7CC236008CBAB2 /* UIView.md */,
+				F524FEFF2B7CC2E9008CBAB2 /* UINavigation.md */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		F524FF002B7CC302008CBAB2 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				F524FF042B7CC490008CBAB2 /* SwiftUI.md */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		F524FF012B7CC325008CBAB2 /* Harbos */ = {
+			isa = PBXGroup;
+			children = (
+				F524FF022B7CC33E008CBAB2 /* Internship.md */,
+				F524FF032B7CC3F8008CBAB2 /* Meetaps.md */,
+			);
+			path = Harbos;
+			sourceTree = "<group>";
+		};
+		F524FF062B7CC62B008CBAB2 /* Vision */ = {
+			isa = PBXGroup;
+			children = (
+				F524FF072B7CC639008CBAB2 /* Vision.md */,
+			);
+			path = Vision;
+			sourceTree = "<group>";
+		};
+		F524FF082B7CC6B0008CBAB2 /* Programming */ = {
+			isa = PBXGroup;
+			children = (
+				F59113062B767DEF00587656 /* Swift */,
+				F524FF092B7CC6E5008CBAB2 /* Go.md */,
+				F524FF0B2B7CC71C008CBAB2 /* Proxy.md */,
+				F524FF0C2B7CC74E008CBAB2 /* JWT.md */,
+			);
+			path = Programming;
+			sourceTree = "<group>";
+		};
+		F524FF0E2B7CC83E008CBAB2 /* Многопоточность */ = {
+			isa = PBXGroup;
+			children = (
+				F524FF0D2B7CC809008CBAB2 /* Многопоточность.md */,
+				F524FF0F2B7CC85D008CBAB2 /* GCD.md */,
+				F524FF102B7CD342008CBAB2 /* AsyncAwait.md */,
+			);
+			path = "Многопоточность";
+			sourceTree = "<group>";
+		};
 		F54B40CA2B38AAEA00478B67 = {
 			isa = PBXGroup;
 			children = (
@@ -127,8 +222,7 @@
 		F54B40D52B38AAEA00478B67 /* PacificOcean */ = {
 			isa = PBXGroup;
 			children = (
-				F59113062B767DEF00587656 /* Swift */,
-				F5FB8DAC2B6578FA00A6EA6F /* Apple */,
+				F524FF082B7CC6B0008CBAB2 /* Programming */,
 				F552EAE72B629D08005E4967 /* RegularExpression */,
 				F51F4AA02B3C920700F56A7D /* TemporaryDirectory */,
 				F54B40EA2B38AC0C00478B67 /* Multithreading */,
@@ -171,8 +265,21 @@
 		F59113062B767DEF00587656 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				F524FF0E2B7CC83E008CBAB2 /* Многопоточность */,
+				F524FF062B7CC62B008CBAB2 /* Vision */,
+				F524FF012B7CC325008CBAB2 /* Harbos */,
+				F524FEF32B7CBD44008CBAB2 /* UIKit */,
+				F524FF002B7CC302008CBAB2 /* SwiftUI */,
+				F524FEF52B7CBDCA008CBAB2 /* Unsorted.md */,
 				F59113082B767E4A00587656 /* Алгоритмы.md */,
 				F591130B2B767EDF00587656 /* Архитектуры.md */,
+				F524FEF12B7CBC95008CBAB2 /* Дженерики.md */,
+				F524FF052B7CC4F7008CBAB2 /* AppleTutorials.md */,
+				F524FF112B7CD445008CBAB2 /* RxSwift.md */,
+				F524FF122B7CD463008CBAB2 /* Combine.md */,
+				F524FF142B7CD707008CBAB2 /* RegularExpression.md */,
+				F524FF152B7CD784008CBAB2 /* Работа с PDF.md */,
+				F524FF162B7CD830008CBAB2 /* Notifications.md */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -186,14 +293,6 @@
 				F515E1D82B4ED1FA00DBA816 /* Unit9.swift */,
 			);
 			path = Unit9;
-			sourceTree = "<group>";
-		};
-		F5FB8DAC2B6578FA00A6EA6F /* Apple */ = {
-			isa = PBXGroup;
-			children = (
-				F5FB8DAD2B65792300A6EA6F /* AppleTutorials.swift */,
-			);
-			path = Apple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +368,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5FB8DAE2B65792300A6EA6F /* AppleTutorials.swift in Sources */,
 				F50D091E2B6BDC3500E92526 /* WeakTest.swift in Sources */,
 				F51F4AA42B3C934F00F56A7D /* ReaderAndWriter.swift in Sources */,
 				F54B40F22B38AC9800478B67 /* Unit4.swift in Sources */,
