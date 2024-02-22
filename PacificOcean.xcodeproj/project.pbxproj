@@ -29,6 +29,7 @@
 		F561670B2B3D897100752D6C /* Regexes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F561670A2B3D897100752D6C /* Regexes.swift */; };
 		F56D446A2B3C947100B99CEB /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = F56D44692B3C947100B99CEB /* test.txt */; };
 		F5932E852B5144130007EBB8 /* Defer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5932E842B5144130007EBB8 /* Defer.swift */; };
+		F5BB582B2B87659000C13937 /* URLTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB582A2B87659000C13937 /* URLTest.swift */; };
 		F5DA3F6E2B74CFD3000A5171 /* SwitchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DA3F6D2B74CFD3000A5171 /* SwitchTest.swift */; };
 		F5E8C0862B46A58400D37702 /* QueueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E8C0852B46A58400D37702 /* QueueTest.swift */; };
 		F5E8C0882B46FDC700D37702 /* Unit6.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E8C0872B46FDC700D37702 /* Unit6.swift */; };
@@ -122,6 +123,7 @@
 		F59113082B767E4A00587656 /* Алгоритмы.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Алгоритмы.md"; sourceTree = "<group>"; };
 		F591130B2B767EDF00587656 /* Архитектуры.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Архитектуры.md"; sourceTree = "<group>"; };
 		F5932E842B5144130007EBB8 /* Defer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defer.swift; sourceTree = "<group>"; };
+		F5BB582A2B87659000C13937 /* URLTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLTest.swift; sourceTree = "<group>"; };
 		F5DA3F6D2B74CFD3000A5171 /* SwitchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTest.swift; sourceTree = "<group>"; };
 		F5E8C0852B46A58400D37702 /* QueueTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTest.swift; sourceTree = "<group>"; };
 		F5E8C0872B46FDC700D37702 /* Unit6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit6.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				F50D091D2B6BDC3500E92526 /* WeakTest.swift */,
 				F5213F682B71270C00D876D6 /* MASK.swift */,
 				F5DA3F6D2B74CFD3000A5171 /* SwitchTest.swift */,
+				F5BB582A2B87659000C13937 /* URLTest.swift */,
 			);
 			path = TemporaryDirectory;
 			sourceTree = "<group>";
@@ -405,6 +408,7 @@
 				F561670B2B3D897100752D6C /* Regexes.swift in Sources */,
 				F51F4A9F2B3C920200F56A7D /* TrashFile.swift in Sources */,
 				F5932E852B5144130007EBB8 /* Defer.swift in Sources */,
+				F5BB582B2B87659000C13937 /* URLTest.swift in Sources */,
 				F5E8C0862B46A58400D37702 /* QueueTest.swift in Sources */,
 				F5E8C0922B47F88F00D37702 /* ViewController1.swift in Sources */,
 				F54B40F42B38ACB200478B67 /* Unit5.swift in Sources */,
