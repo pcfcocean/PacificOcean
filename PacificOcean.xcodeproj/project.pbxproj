@@ -14,6 +14,7 @@
 		F51F4AA22B3C928400F56A7D /* ForEachFor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51F4AA12B3C928400F56A7D /* ForEachFor.swift */; };
 		F51F4AA42B3C934F00F56A7D /* ReaderAndWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51F4AA32B3C934F00F56A7D /* ReaderAndWriter.swift */; };
 		F5213F692B71270C00D876D6 /* MASK.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5213F682B71270C00D876D6 /* MASK.swift */; };
+		F5291EBB2B936E6500F2BC4B /* TimeZoneTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5291EBA2B936E6500F2BC4B /* TimeZoneTest.swift */; };
 		F54B40D72B38AAEA00478B67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B40D62B38AAEA00478B67 /* AppDelegate.swift */; };
 		F54B40D92B38AAEA00478B67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B40D82B38AAEA00478B67 /* SceneDelegate.swift */; };
 		F54B40DB2B38AAEA00478B67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B40DA2B38AAEA00478B67 /* ViewController.swift */; };
@@ -28,7 +29,11 @@
 		F552EAE92B629D23005E4967 /* ReGex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F552EAE82B629D23005E4967 /* ReGex.swift */; };
 		F561670B2B3D897100752D6C /* Regexes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F561670A2B3D897100752D6C /* Regexes.swift */; };
 		F56D446A2B3C947100B99CEB /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = F56D44692B3C947100B99CEB /* test.txt */; };
+		F582A5282B92140D000B451C /* DispachText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F582A5272B92140D000B451C /* DispachText.swift */; };
+		F582A52A2B923546000B451C /* ArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F582A5292B923546000B451C /* ArrayTest.swift */; };
+		F5849E0B2B8F4060003C0A4C /* Reversed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5849E0A2B8F4060003C0A4C /* Reversed.swift */; };
 		F5932E852B5144130007EBB8 /* Defer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5932E842B5144130007EBB8 /* Defer.swift */; };
+		F5A29AFD2B973F86006F2C46 /* ReturnTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A29AFC2B973F86006F2C46 /* ReturnTest.swift */; };
 		F5BB582B2B87659000C13937 /* URLTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB582A2B87659000C13937 /* URLTest.swift */; };
 		F5DA3F6E2B74CFD3000A5171 /* SwitchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DA3F6D2B74CFD3000A5171 /* SwitchTest.swift */; };
 		F5E8C0862B46A58400D37702 /* QueueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E8C0852B46A58400D37702 /* QueueTest.swift */; };
@@ -38,6 +43,7 @@
 		F5E8C0922B47F88F00D37702 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E8C0912B47F88F00D37702 /* ViewController1.swift */; };
 		F5E8C0942B47F89D00D37702 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E8C0932B47F89D00D37702 /* ViewController2.swift */; };
 		F5EE60F52B402176006658C4 /* FastCodeCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EE60F42B402176006658C4 /* FastCodeCheck.swift */; };
+		F5F350102B95C17D00744522 /* LetVarTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F3500F2B95C17D00744522 /* LetVarTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +110,7 @@
 		F524FF2F2B7CEE3E008CBAB2 /* UIButton.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UIButton.md; sourceTree = "<group>"; };
 		F524FF302B7CEE81008CBAB2 /* UIActivityIndicator.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UIActivityIndicator.md; sourceTree = "<group>"; };
 		F524FF312B7CEF1E008CBAB2 /* Библиотеки.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Библиотеки.md"; sourceTree = "<group>"; };
+		F5291EBA2B936E6500F2BC4B /* TimeZoneTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZoneTest.swift; sourceTree = "<group>"; };
 		F54B40D32B38AAEA00478B67 /* PacificOcean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PacificOcean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54B40D62B38AAEA00478B67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F54B40D82B38AAEA00478B67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,9 +127,14 @@
 		F552EAE82B629D23005E4967 /* ReGex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReGex.swift; sourceTree = "<group>"; };
 		F561670A2B3D897100752D6C /* Regexes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regexes.swift; sourceTree = "<group>"; };
 		F56D44692B3C947100B99CEB /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		F582A5272B92140D000B451C /* DispachText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispachText.swift; sourceTree = "<group>"; };
+		F582A5292B923546000B451C /* ArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTest.swift; sourceTree = "<group>"; };
+		F5849E0A2B8F4060003C0A4C /* Reversed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reversed.swift; sourceTree = "<group>"; };
 		F59113082B767E4A00587656 /* Алгоритмы.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Алгоритмы.md"; sourceTree = "<group>"; };
 		F591130B2B767EDF00587656 /* Архитектуры.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Архитектуры.md"; sourceTree = "<group>"; };
 		F5932E842B5144130007EBB8 /* Defer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defer.swift; sourceTree = "<group>"; };
+		F5A29AFC2B973F86006F2C46 /* ReturnTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnTest.swift; sourceTree = "<group>"; };
+		F5A90BB52B9A28680027A2DA /* SPM.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SPM.md; sourceTree = "<group>"; };
 		F5BB582A2B87659000C13937 /* URLTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLTest.swift; sourceTree = "<group>"; };
 		F5DA3F6D2B74CFD3000A5171 /* SwitchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTest.swift; sourceTree = "<group>"; };
 		F5E8C0852B46A58400D37702 /* QueueTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTest.swift; sourceTree = "<group>"; };
@@ -133,6 +145,7 @@
 		F5E8C0912B47F88F00D37702 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		F5E8C0932B47F89D00D37702 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		F5EE60F42B402176006658C4 /* FastCodeCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastCodeCheck.swift; sourceTree = "<group>"; };
+		F5F3500F2B95C17D00744522 /* LetVarTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetVarTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +174,12 @@
 				F5213F682B71270C00D876D6 /* MASK.swift */,
 				F5DA3F6D2B74CFD3000A5171 /* SwitchTest.swift */,
 				F5BB582A2B87659000C13937 /* URLTest.swift */,
+				F5849E0A2B8F4060003C0A4C /* Reversed.swift */,
+				F582A5272B92140D000B451C /* DispachText.swift */,
+				F582A5292B923546000B451C /* ArrayTest.swift */,
+				F5291EBA2B936E6500F2BC4B /* TimeZoneTest.swift */,
+				F5F3500F2B95C17D00744522 /* LetVarTest.swift */,
+				F5A29AFC2B973F86006F2C46 /* ReturnTest.swift */,
 			);
 			path = TemporaryDirectory;
 			sourceTree = "<group>";
@@ -309,6 +328,7 @@
 				F524FF2D2B7CECCD008CBAB2 /* Xcode Server & CI & CD.md */,
 				F524FF2E2B7CED2E008CBAB2 /* XCTest.md */,
 				F524FF312B7CEF1E008CBAB2 /* Библиотеки.md */,
+				F5A90BB52B9A28680027A2DA /* SPM.md */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -399,6 +419,7 @@
 			files = (
 				F50D091E2B6BDC3500E92526 /* WeakTest.swift in Sources */,
 				F51F4AA42B3C934F00F56A7D /* ReaderAndWriter.swift in Sources */,
+				F5849E0B2B8F4060003C0A4C /* Reversed.swift in Sources */,
 				F54B40F22B38AC9800478B67 /* Unit4.swift in Sources */,
 				F54B40EE2B38AC6800478B67 /* Unit2.swift in Sources */,
 				F50D091C2B6BDC1400E92526 /* BreakTest.swift in Sources */,
@@ -407,12 +428,16 @@
 				F54B40DB2B38AAEA00478B67 /* ViewController.swift in Sources */,
 				F561670B2B3D897100752D6C /* Regexes.swift in Sources */,
 				F51F4A9F2B3C920200F56A7D /* TrashFile.swift in Sources */,
+				F5A29AFD2B973F86006F2C46 /* ReturnTest.swift in Sources */,
 				F5932E852B5144130007EBB8 /* Defer.swift in Sources */,
+				F5291EBB2B936E6500F2BC4B /* TimeZoneTest.swift in Sources */,
+				F582A52A2B923546000B451C /* ArrayTest.swift in Sources */,
 				F5BB582B2B87659000C13937 /* URLTest.swift in Sources */,
 				F5E8C0862B46A58400D37702 /* QueueTest.swift in Sources */,
 				F5E8C0922B47F88F00D37702 /* ViewController1.swift in Sources */,
 				F54B40F42B38ACB200478B67 /* Unit5.swift in Sources */,
 				F5E8C0882B46FDC700D37702 /* Unit6.swift in Sources */,
+				F582A5282B92140D000B451C /* DispachText.swift in Sources */,
 				F5E8C0942B47F89D00D37702 /* ViewController2.swift in Sources */,
 				F5DA3F6E2B74CFD3000A5171 /* SwitchTest.swift in Sources */,
 				F54B40D72B38AAEA00478B67 /* AppDelegate.swift in Sources */,
@@ -422,6 +447,7 @@
 				F5E8C08A2B47083300D37702 /* Unit7 - GCD.swift in Sources */,
 				F54B40D92B38AAEA00478B67 /* SceneDelegate.swift in Sources */,
 				F552EAE92B629D23005E4967 /* ReGex.swift in Sources */,
+				F5F350102B95C17D00744522 /* LetVarTest.swift in Sources */,
 				F54B40EC2B38AC2B00478B67 /* Unit1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
