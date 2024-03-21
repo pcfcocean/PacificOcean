@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 struct MASK {
     private enum Constants {
         static let maskedData: (String) -> (String) = { "•••\($0.suffix(2))" }
@@ -24,15 +23,22 @@ struct MASK {
             }
             return formattedPhoneNumber
         }
-
+        static let format4: (String) -> (String) = { phoneNumber in
+            guard phoneNumber.count > 4 else { return phoneNumber }
+                let prefix = "\(phoneNumber.prefix(2))"
+                let suffix = "\(phoneNumber.suffix(2))"
+                let middlePart = String(repeating: "•", count: phoneNumber.count - 4)
+                return "\(prefix) \(middlePart) \(suffix)"
+        }
     }
 
     init() {
-        print(Constants.formattedPhoneNumber("+375447212371"))
-        print(Constants.formattedPhoneNumber("371"))
-        print(Constants.formattedPhoneNumber("3719"))
-        print(Constants.formattedPhoneNumber("37109"))
-        print(Constants.formattedPhoneNumber("37109"))
-        print(Constants.formattedPhoneNumber("3"))
+        print(Constants.format4("+375447212371"))
+        print(Constants.format4("371"))
+        print(Constants.format4("3719"))
+        print(Constants.format4("37109"))
+        print(Constants.format4("37109"))
+        print(Constants.format4("3"))
+        
     }
 }

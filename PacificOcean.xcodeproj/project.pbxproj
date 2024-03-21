@@ -28,6 +28,7 @@
 		F54B40F42B38ACB200478B67 /* Unit5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B40F32B38ACB200478B67 /* Unit5.swift */; };
 		F552EAE92B629D23005E4967 /* ReGex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F552EAE82B629D23005E4967 /* ReGex.swift */; };
 		F561670B2B3D897100752D6C /* Regexes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F561670A2B3D897100752D6C /* Regexes.swift */; };
+		F564802E2BAC26440070B20A /* FontsRegistrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F564802D2BAC26440070B20A /* FontsRegistrator.swift */; };
 		F56D446A2B3C947100B99CEB /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = F56D44692B3C947100B99CEB /* test.txt */; };
 		F582A5282B92140D000B451C /* DispachText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F582A5272B92140D000B451C /* DispachText.swift */; };
 		F582A52A2B923546000B451C /* ArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F582A5292B923546000B451C /* ArrayTest.swift */; };
@@ -126,6 +127,8 @@
 		F54B40F32B38ACB200478B67 /* Unit5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit5.swift; sourceTree = "<group>"; };
 		F552EAE82B629D23005E4967 /* ReGex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReGex.swift; sourceTree = "<group>"; };
 		F561670A2B3D897100752D6C /* Regexes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regexes.swift; sourceTree = "<group>"; };
+		F564802D2BAC26440070B20A /* FontsRegistrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsRegistrator.swift; sourceTree = "<group>"; };
+		F56480312BAC272F0070B20A /* CustomFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CustomFont.ttf; sourceTree = "<group>"; };
 		F56D44692B3C947100B99CEB /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
 		F582A5272B92140D000B451C /* DispachText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispachText.swift; sourceTree = "<group>"; };
 		F582A5292B923546000B451C /* ArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTest.swift; sourceTree = "<group>"; };
@@ -254,6 +257,8 @@
 		F54B40D52B38AAEA00478B67 /* PacificOcean */ = {
 			isa = PBXGroup;
 			children = (
+				F564802F2BAC27110070B20A /* Resources */,
+				F564802C2BAC26300070B20A /* Fonts */,
 				F524FF082B7CC6B0008CBAB2 /* Programming */,
 				F552EAE72B629D08005E4967 /* RegularExpression */,
 				F51F4AA02B3C920700F56A7D /* TemporaryDirectory */,
@@ -292,6 +297,30 @@
 				F552EAE82B629D23005E4967 /* ReGex.swift */,
 			);
 			path = RegularExpression;
+			sourceTree = "<group>";
+		};
+		F564802C2BAC26300070B20A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F564802D2BAC26440070B20A /* FontsRegistrator.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F564802F2BAC27110070B20A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F56480302BAC27220070B20A /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F56480302BAC27220070B20A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F56480312BAC272F0070B20A /* CustomFont.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		F59113062B767DEF00587656 /* Swift */ = {
@@ -444,6 +473,7 @@
 				F54B40F02B38AC8400478B67 /* Unit3.swift in Sources */,
 				F5EE60F52B402176006658C4 /* FastCodeCheck.swift in Sources */,
 				F5213F692B71270C00D876D6 /* MASK.swift in Sources */,
+				F564802E2BAC26440070B20A /* FontsRegistrator.swift in Sources */,
 				F5E8C08A2B47083300D37702 /* Unit7 - GCD.swift in Sources */,
 				F54B40D92B38AAEA00478B67 /* SceneDelegate.swift in Sources */,
 				F552EAE92B629D23005E4967 /* ReGex.swift in Sources */,
