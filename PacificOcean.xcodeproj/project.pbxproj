@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F50D091C2B6BDC1400E92526 /* BreakTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50D091B2B6BDC1400E92526 /* BreakTest.swift */; };
 		F50D091E2B6BDC3500E92526 /* WeakTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50D091D2B6BDC3500E92526 /* WeakTest.swift */; };
+		F511AFD12BADA9CF00EF1D1D /* DispatchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F511AFD02BADA9CF00EF1D1D /* DispatchTest.swift */; };
 		F515E1D92B4ED1FA00DBA816 /* Unit9.swift in Sources */ = {isa = PBXBuildFile; fileRef = F515E1D82B4ED1FA00DBA816 /* Unit9.swift */; };
 		F51F4A9F2B3C920200F56A7D /* TrashFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51F4A9E2B3C920200F56A7D /* TrashFile.swift */; };
 		F51F4AA22B3C928400F56A7D /* ForEachFor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51F4AA12B3C928400F56A7D /* ForEachFor.swift */; };
@@ -50,6 +51,7 @@
 /* Begin PBXFileReference section */
 		F50D091B2B6BDC1400E92526 /* BreakTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakTest.swift; sourceTree = "<group>"; };
 		F50D091D2B6BDC3500E92526 /* WeakTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakTest.swift; sourceTree = "<group>"; };
+		F511AFD02BADA9CF00EF1D1D /* DispatchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchTest.swift; sourceTree = "<group>"; };
 		F515E1D82B4ED1FA00DBA816 /* Unit9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit9.swift; sourceTree = "<group>"; };
 		F51F4A9E2B3C920200F56A7D /* TrashFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashFile.swift; sourceTree = "<group>"; };
 		F51F4AA12B3C928400F56A7D /* ForEachFor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachFor.swift; sourceTree = "<group>"; };
@@ -162,7 +164,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F51F4AA02B3C920700F56A7D /* TemporaryDirectory */ = {
+		F51F4AA02B3C920700F56A7D /* TestDirectory */ = {
 			isa = PBXGroup;
 			children = (
 				F51F4A9E2B3C920200F56A7D /* TrashFile.swift */,
@@ -183,8 +185,9 @@
 				F5291EBA2B936E6500F2BC4B /* TimeZoneTest.swift */,
 				F5F3500F2B95C17D00744522 /* LetVarTest.swift */,
 				F5A29AFC2B973F86006F2C46 /* ReturnTest.swift */,
+				F511AFD02BADA9CF00EF1D1D /* DispatchTest.swift */,
 			);
-			path = TemporaryDirectory;
+			path = TestDirectory;
 			sourceTree = "<group>";
 		};
 		F524FEF32B7CBD44008CBAB2 /* UIKit */ = {
@@ -261,7 +264,7 @@
 				F564802C2BAC26300070B20A /* Fonts */,
 				F524FF082B7CC6B0008CBAB2 /* Programming */,
 				F552EAE72B629D08005E4967 /* RegularExpression */,
-				F51F4AA02B3C920700F56A7D /* TemporaryDirectory */,
+				F51F4AA02B3C920700F56A7D /* TestDirectory */,
 				F54B40EA2B38AC0C00478B67 /* Multithreading */,
 				F54B40D62B38AAEA00478B67 /* AppDelegate.swift */,
 				F54B40D82B38AAEA00478B67 /* SceneDelegate.swift */,
@@ -469,6 +472,7 @@
 				F582A5282B92140D000B451C /* DispachText.swift in Sources */,
 				F5E8C0942B47F89D00D37702 /* ViewController2.swift in Sources */,
 				F5DA3F6E2B74CFD3000A5171 /* SwitchTest.swift in Sources */,
+				F511AFD12BADA9CF00EF1D1D /* DispatchTest.swift in Sources */,
 				F54B40D72B38AAEA00478B67 /* AppDelegate.swift in Sources */,
 				F54B40F02B38AC8400478B67 /* Unit3.swift in Sources */,
 				F5EE60F52B402176006658C4 /* FastCodeCheck.swift in Sources */,
