@@ -56,7 +56,6 @@ final class CleanSwiftViewController: UIViewController, CleanSwiftDisplayLogic {
     }
 
     private func configureView() {
-        view.backgroundColor = .systemBlue.withAlphaComponent(0.2)
         addSubviews()
         makeConstraints()
         setupActions()
