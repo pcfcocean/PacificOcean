@@ -21,13 +21,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let window = UIWindow(frame: UIScreen.main.bounds)
         self.window = window
 
-//        let viewController = CleanSwiftAssembly.build(config: CleanSwift.Config(initialData: nil))
-        let viewController = LifeCycleViewController()
+        let viewController = CleanSwiftAssembly.build(config: CleanSwift.Config(initialData: nil))
+//        let viewController = LifeCycleViewController()
         let navigationController: UINavigationController = UINavigationController(rootViewController: viewController)
         window.rootViewController = navigationController
         window.makeKeyAndVisible()
 
+//        Test().test()
+//        Test().test6()
+        QueueTest().test()
         return true
     }
+
+    
 }
 
