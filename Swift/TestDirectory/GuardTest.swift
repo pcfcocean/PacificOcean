@@ -7,8 +7,9 @@
 
 import Foundation
 
-struct GuartTest {
+struct GuardTest {
     init() {
+        handle()
     }
 
     func guardTest() {
@@ -18,5 +19,21 @@ struct GuartTest {
 
     private func printer() {
         print("--- private func print")
+    }
+
+    private func handle() {
+        let boolean = true
+        switch boolean {
+        case true:
+            guard true else {
+                print("--- 1")
+                return
+            }
+            guard false else { break }
+            return print("--- TRUE")
+        case false:
+            print("--- FALSE")
+        }
+        print("--- Apple")
     }
 }

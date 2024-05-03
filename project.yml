@@ -18,6 +18,14 @@ appFonts: &app_Fonts [
   CustomFont.ttf
 ]
 
+packages:
+  Lottie:
+    url: https://github.com/airbnb/lottie-spm.git
+    from: 4.4.3
+  SnapKit:
+    url: https://github.com/SnapKit/SnapKit.git
+    from: 5.0.1
+
 targets:
   PacificOcaen:
     type: application
@@ -31,3 +39,6 @@ targets:
       path: ./PacificOcean/info.plist
     settings:
       PRODUCT_BUNDLE_IDENTIFIER: com.pcfcocean
+    dependencies:
+      - package: Lottie
+      - package: SnapKit

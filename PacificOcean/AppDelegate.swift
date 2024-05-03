@@ -27,9 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window.rootViewController = navigationController
         window.makeKeyAndVisible()
 
-//        Test().test()
-//        Test().test6()
-        QueueTest().test()
+        GuardTest()
         return true
     }
 
