@@ -41,3 +41,9 @@ https://debashishdas3100.medium.com/save-push-notifications-to-coredata-userdefa
 
 How to Add Push Notifications into an iOS App
 https://onesignal.com/blog/how-to-add-push-notifications-into-an-ios-app/
+
+Generate a .pem file
+https://developer.blueshift.com/docs/generate-a-pem-file
+
+Sending push notifications using command-line tools
+https://developer.apple.com/documentation/usernotifications/sending-push-notifications-using-command-line-tools
