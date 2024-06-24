@@ -13,3 +13,6 @@ sudo xcode-select --switch /Applications/Xcode-15.3.0.app
 private var date: CFAbsoluteTime?
 self.date = CFAbsoluteTimeGetCurrent()
 print("---  time \((self.date ?? CFAbsoluteTimeGetCurrent()) - CFAbsoluteTimeGetCurrent())")
+
+Классное виде о том как относится к задачам и алгоритмам + много полезных советов и Framework + мотивашки
+https://youtu.be/ugGT4T5HcsI?feature=shared 

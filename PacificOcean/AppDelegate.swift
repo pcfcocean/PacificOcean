@@ -21,16 +21,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let window = UIWindow(frame: UIScreen.main.bounds)
         self.window = window
 
-        let viewController = CleanSwiftAssembly.build(config: CleanSwift.Config(initialData: nil))
-//        let viewController = LifeCycleViewController()
-        let navigationController: UINavigationController = UINavigationController(rootViewController: viewController)
+        let mvcViewController = MVC_Controller()
+        let cleanSwiftViewController = CleanSwiftAssembly.build(config: CleanSwift.Config(initialData: nil))
+        let viewController = LifeCycleViewController()
+
+        let navigationController: UINavigationController = UINavigationController(rootViewController: mvcViewController)
         window.rootViewController = navigationController
         window.makeKeyAndVisible()
 
-        GuardTest()
+        //        DispatchSemaphoreTest()
+        //        TypeErasure()
         return true
     }
-
-    
 }
-

@@ -40,6 +40,7 @@
 		467A834038C05AC77F4BFE51 /* ReGex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99D99A686F64E893184C7D7 /* ReGex.swift */; };
 		4694999030ED5EBE9E376023 /* CoreData.md in Resources */ = {isa = PBXBuildFile; fileRef = 259C8B8305D9C98FE740A029 /* CoreData.md */; };
 		493429065B57B8EDD260C105 /* UICollectionView.md in Resources */ = {isa = PBXBuildFile; fileRef = B2DC5D64A60C5503BA6ACF66 /* UICollectionView.md */; };
+		4D737ECB420EC7A13EBAB5EF /* Recommended resources.md in Resources */ = {isa = PBXBuildFile; fileRef = 4844D9BF78FD7BE3BBCDD919 /* Recommended resources.md */; };
 		50E6F29D0DA2181296EA86B0 /* UIKit.md in Resources */ = {isa = PBXBuildFile; fileRef = 7C3951354C245F804A1D6FD4 /* UIKit.md */; };
 		51AD7A1B8DFC4C04E3B41472 /* Networking.md in Resources */ = {isa = PBXBuildFile; fileRef = 19A3E36AAB70861AA2EE8B44 /* Networking.md */; };
 		55632961D9E998CACE5BF64F /* XCTest.md in Resources */ = {isa = PBXBuildFile; fileRef = BD937033812F2061BE02635D /* XCTest.md */; };
@@ -117,6 +118,11 @@
 		F33990335B4ECD120B041F89 /* Алгоритмы.md in Resources */ = {isa = PBXBuildFile; fileRef = 24C7CE01007C558BEF88E0F3 /* Алгоритмы.md */; };
 		F56C8C7D42E789069602F225 /* Unit4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6991F474D3992AFFD8DAFA /* Unit4.swift */; };
 		F59E83996731283BA23C32CF /* AnimatableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0E514EF2D590AE63665212 /* AnimatableView.swift */; };
+		F5D2F5112C2717FF00789EFA /* Unit11.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2F5102C2717FF00789EFA /* Unit11.swift */; };
+		F5D2F5142C288E1900789EFA /* TypeErasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2F5132C288E1900789EFA /* TypeErasure.swift */; };
+		F5D2F5172C289A9700789EFA /* MVC_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2F5162C289A9700789EFA /* MVC_Model.swift */; };
+		F5D2F5192C289AA300789EFA /* MVC_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2F5182C289AA300789EFA /* MVC_View.swift */; };
+		F5D2F51B2C289AAE00789EFA /* MVC_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2F51A2C289AAE00789EFA /* MVC_Controller.swift */; };
 		F6C3CEC2F703F5C0153F0BA8 /* Vision.md in Resources */ = {isa = PBXBuildFile; fileRef = 2D98441E70F28212050A5BA8 /* Vision.md */; };
 		F867D7B4B5349613BD2EDFC1 /* RegularExpression.md in Resources */ = {isa = PBXBuildFile; fileRef = D9313A2E251C02E189543624 /* RegularExpression.md */; };
 		F90C033F204CF9B55AE43FBC /* TrashFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9EBE27454A4C50E9360058 /* TrashFile.swift */; };
@@ -158,6 +164,7 @@
 		46FE0213014C35544757AB92 /* Swift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Swift.md; sourceTree = "<group>"; };
 		47CAD4FA9FB561617B159896 /* Keyboard.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Keyboard.md; sourceTree = "<group>"; };
 		47DA484649569CDB6472CB3D /* URLTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLTest.swift; sourceTree = "<group>"; };
+		4844D9BF78FD7BE3BBCDD919 /* Recommended resources.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Recommended resources.md"; sourceTree = "<group>"; };
 		4890AEB7D47A12135B70E180 /* UIScrollView.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UIScrollView.md; sourceTree = "<group>"; };
 		4A8F2C715AFA51B4ACB5317D /* CleanSwiftRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanSwiftRouter.swift; sourceTree = "<group>"; };
 		4DE8BD07CBDBDE82BA7C40D4 /* UISearchController and UISearchBar.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "UISearchController and UISearchBar.md"; sourceTree = "<group>"; };
@@ -238,6 +245,12 @@
 		F0D21F1B40D44712430A0542 /* GuardTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuardTest.swift; sourceTree = "<group>"; };
 		F16C77A27544A1EF0D10968A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1A9BAB2ADEA24D30C949A66 /* Оффлайн-режим на iOS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Оффлайн-режим на iOS.md"; sourceTree = "<group>"; };
+		F5D2F5102C2717FF00789EFA /* Unit11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit11.swift; sourceTree = "<group>"; };
+		F5D2F5122C272A4C00789EFA /* Memory, Value and Ref types.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Memory, Value and Ref types.md"; sourceTree = "<group>"; };
+		F5D2F5132C288E1900789EFA /* TypeErasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeErasure.swift; sourceTree = "<group>"; };
+		F5D2F5162C289A9700789EFA /* MVC_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVC_Model.swift; sourceTree = "<group>"; };
+		F5D2F5182C289AA300789EFA /* MVC_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVC_View.swift; sourceTree = "<group>"; };
+		F5D2F51A2C289AAE00789EFA /* MVC_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVC_Controller.swift; sourceTree = "<group>"; };
 		F648616F970AE7ED55A4CA86 /* MASK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MASK.swift; sourceTree = "<group>"; };
 		FC175633B4BE26FCB561CB58 /* AnimationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -258,6 +271,7 @@
 		02FF76AF23694EB28C7FB9D2 /* Programming */ = {
 			isa = PBXGroup;
 			children = (
+				B0823EBB53350CF53485C472 /* Interview TBANK */,
 				620029EE07E7F161B23C2373 /* Swift */,
 				F1A9BAB2ADEA24D30C949A66 /* Оффлайн-режим на iOS.md */,
 				2DBBE322EF2A4C25ECF3DD37 /* Common.md */,
@@ -328,6 +342,7 @@
 				2AC655149983E17E3A521231 /* Unit6.swift */,
 				BC95AA755AA87372CB03C73B /* Unit7 - GCD.swift */,
 				EBBE7110A3180EE5825CFFC7 /* Unit8.playground */,
+				F5D2F5102C2717FF00789EFA /* Unit11.swift */,
 			);
 			path = Multithreading;
 			sourceTree = "<group>";
@@ -402,6 +417,7 @@
 				2D98441E70F28212050A5BA8 /* Vision.md */,
 				DD386DE9797BD14C284D3491 /* Xcode Server & CI & CD.md */,
 				BD937033812F2061BE02635D /* XCTest.md */,
+				F5D2F5122C272A4C00789EFA /* Memory, Value and Ref types.md */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -433,6 +449,7 @@
 		8BB78B4E74CFDCFC9DB4D38A /* PacificOcean */ = {
 			isa = PBXGroup;
 			children = (
+				F5D2F5152C289A6C00789EFA /* MVC */,
 				5AA463DAD7483CD7EBB6DAEA /* CleanSwift */,
 				E11E2B198BF44603F4E3FC59 /* LottieManager */,
 				89159FC42694CBCBA7676D33 /* Resources */,
@@ -473,6 +490,14 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		B0823EBB53350CF53485C472 /* Interview TBANK */ = {
+			isa = PBXGroup;
+			children = (
+				4844D9BF78FD7BE3BBCDD919 /* Recommended resources.md */,
+			);
+			path = "Interview TBANK";
+			sourceTree = "<group>";
+		};
 		C3862EF2A5E6BFF0E0CBED2C /* TestDirectory */ = {
 			isa = PBXGroup;
 			children = (
@@ -497,6 +522,7 @@
 				BE9EBE27454A4C50E9360058 /* TrashFile.swift */,
 				47DA484649569CDB6472CB3D /* URLTest.swift */,
 				105184E3FB859E5A33DB8C29 /* WeakTest.swift */,
+				F5D2F5132C288E1900789EFA /* TypeErasure.swift */,
 			);
 			path = TestDirectory;
 			sourceTree = "<group>";
@@ -510,6 +536,16 @@
 				A8782DBDB03445B8B0F0F434 /* LOTAnimationView+Extensions.swift */,
 			);
 			path = LottieManager;
+			sourceTree = "<group>";
+		};
+		F5D2F5152C289A6C00789EFA /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				F5D2F5162C289A9700789EFA /* MVC_Model.swift */,
+				F5D2F5182C289AA300789EFA /* MVC_View.swift */,
+				F5D2F51A2C289AAE00789EFA /* MVC_Controller.swift */,
+			);
+			path = MVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -595,6 +631,7 @@
 				51AD7A1B8DFC4C04E3B41472 /* Networking.md in Resources */,
 				7907D017E5FA0B39A0C807E4 /* Notifications.md in Resources */,
 				83ACE2899D42584DD36CFEF6 /* Proxy снифферы.md in Resources */,
+				4D737ECB420EC7A13EBAB5EF /* Recommended resources.md in Resources */,
 				F867D7B4B5349613BD2EDFC1 /* RegularExpression.md in Resources */,
 				14C599286842FB63A05E912E /* RxSwift.md in Resources */,
 				BB8E95814E43258A7AA7BC52 /* SPM.md in Resources */,
@@ -645,6 +682,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5D2F51B2C289AAE00789EFA /* MVC_Controller.swift in Sources */,
+				F5D2F5192C289AA300789EFA /* MVC_View.swift in Sources */,
 				F59E83996731283BA23C32CF /* AnimatableView.swift in Sources */,
 				61A73703B231F078FC403D73 /* AnimationManager.swift in Sources */,
 				05A8AB461E23B0D47B7E5112 /* AppAnimation.swift in Sources */,
@@ -672,6 +711,7 @@
 				7EB404D71325400F1F38DAAC /* MagicLayout.swift in Sources */,
 				DCC330062115FD3C97A77AAF /* QueueTest.swift in Sources */,
 				467A834038C05AC77F4BFE51 /* ReGex.swift in Sources */,
+				F5D2F5172C289A9700789EFA /* MVC_Model.swift in Sources */,
 				E858F5FFFCE901AB21A24D0A /* ReaderAndWriter.swift in Sources */,
 				AD680DAAED919CA9D6FC82EC /* Regexes.swift in Sources */,
 				E19F059B6503AB1B50318CBA /* ReturnTest.swift in Sources */,
@@ -680,11 +720,13 @@
 				B49B5A13D4FF6206F14E8FE8 /* Test.swift in Sources */,
 				E144C52870533AE2427B7408 /* TimeZoneTest.swift in Sources */,
 				F90C033F204CF9B55AE43FBC /* TrashFile.swift in Sources */,
+				F5D2F5112C2717FF00789EFA /* Unit11.swift in Sources */,
 				8EC8180CC39362BB58CFB8B4 /* URLTest.swift in Sources */,
 				BB7FBA78BE655D35FECD0771 /* Unit1.swift in Sources */,
 				9380792578F6F46869B4AB8A /* Unit2.swift in Sources */,
 				92EED20B513EE5069987F8E1 /* Unit3.swift in Sources */,
 				F56C8C7D42E789069602F225 /* Unit4.swift in Sources */,
+				F5D2F5142C288E1900789EFA /* TypeErasure.swift in Sources */,
 				A4AA6322DD17E2FDF677C7A1 /* Unit5.swift in Sources */,
 				A6910312C2175B332BE3C2C7 /* Unit6.swift in Sources */,
 				E5841295720B118FAA371A56 /* Unit7 - GCD.swift in Sources */,

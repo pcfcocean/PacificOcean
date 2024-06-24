@@ -23,10 +23,6 @@ enum CleanSwift {
     }
 
     enum Timer {
-        enum Condition {
-            case time(Int)
-            case timeOver
-        }
         struct Request {}
         struct Response {
             let timerCondition: Condition
@@ -61,5 +57,10 @@ enum CleanSwift {
         var message: String?
         var firstAction: Action?
         var secondAction: Action?
+    }
+
+    enum Condition {
+        case time(Int)
+        case timeOver
     }
 }

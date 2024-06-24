@@ -37,6 +37,8 @@ targets:
       - path: ./Swift
     info:
       path: ./PacificOcean/info.plist
+      properties:
+        CFBundleDisplayName: ${DISPLAY_NAME}
     settings:
       PRODUCT_BUNDLE_IDENTIFIER: com.pcfcocean
     dependencies:

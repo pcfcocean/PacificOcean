@@ -8,6 +8,7 @@
 import Foundation
 
 final class CleanSwiftInteractor: CleanSwiftBusinessLogic, CleanSwiftDataStore {
+    // MARK: - Constants
     private enum Constants {
         static var initTimerDuration = 10
     }

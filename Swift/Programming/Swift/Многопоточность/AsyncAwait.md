@@ -14,3 +14,6 @@ https://www.youtube.com/watch?v=F02-k1X_Rok
 
 Swift 5.5 Concurrency async/await Cheatsheet with Examples
 https://swiftuirecipes.com/blog/swift-5-5-async-await-cheatsheet
+
+ConcurrencyRecipes
+https://github.com/mattmassicotte/ConcurrencyRecipes?tab=readme-ov-file
