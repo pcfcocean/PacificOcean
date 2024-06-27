@@ -116,6 +116,7 @@
 		F16C1D9F2369B2A5AEAEC393 /* UIButton.md in Resources */ = {isa = PBXBuildFile; fileRef = A19B3AA50E22936951E66D55 /* UIButton.md */; };
 		F23021ED2318714B36EF388C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0307DF9B5E32E70B6E53FF7 /* LaunchScreen.storyboard */; };
 		F33990335B4ECD120B041F89 /* Алгоритмы.md in Resources */ = {isa = PBXBuildFile; fileRef = 24C7CE01007C558BEF88E0F3 /* Алгоритмы.md */; };
+		F51A78FB2C2B25530060D846 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A78FA2C2B25530060D846 /* Task.swift */; };
 		F56C8C7D42E789069602F225 /* Unit4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6991F474D3992AFFD8DAFA /* Unit4.swift */; };
 		F59E83996731283BA23C32CF /* AnimatableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0E514EF2D590AE63665212 /* AnimatableView.swift */; };
 		F5D2F5112C2717FF00789EFA /* Unit11.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2F5102C2717FF00789EFA /* Unit11.swift */; };
@@ -239,12 +240,15 @@
 		E88C4E12B2D90AA82E8B5FC0 /* CleanSwiftAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanSwiftAssembly.swift; sourceTree = "<group>"; };
 		E9F9ECB464D2F95FF0798097 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		EA9F018CD760BE9AC999B078 /* ReturnTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnTest.swift; sourceTree = "<group>"; };
-		EBBE7110A3180EE5825CFFC7 /* Unit8.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Unit8.playground; sourceTree = "<group>"; };
+		EBBE7110A3180EE5825CFFC7 /* Unit8.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Unit8.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		ED2748F2F55C9C152DCBEA24 /* TimeZoneTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZoneTest.swift; sourceTree = "<group>"; };
 		EE912C956D93AE4005ACBCB9 /* PacificOcaen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PacificOcaen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D21F1B40D44712430A0542 /* GuardTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuardTest.swift; sourceTree = "<group>"; };
 		F16C77A27544A1EF0D10968A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1A9BAB2ADEA24D30C949A66 /* Оффлайн-режим на iOS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Оффлайн-режим на iOS.md"; sourceTree = "<group>"; };
+		F51A78FA2C2B25530060D846 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		F51A78FC2C2B285C0060D846 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F57ADECE2C2DFFA2003DAB9C /* Recomendation 1 .md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Recomendation 1 .md"; sourceTree = "<group>"; };
 		F5D2F5102C2717FF00789EFA /* Unit11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit11.swift; sourceTree = "<group>"; };
 		F5D2F5122C272A4C00789EFA /* Memory, Value and Ref types.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Memory, Value and Ref types.md"; sourceTree = "<group>"; };
 		F5D2F5132C288E1900789EFA /* TypeErasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeErasure.swift; sourceTree = "<group>"; };
@@ -494,6 +498,8 @@
 			isa = PBXGroup;
 			children = (
 				4844D9BF78FD7BE3BBCDD919 /* Recommended resources.md */,
+				F51A78FA2C2B25530060D846 /* Task.swift */,
+				F57ADECE2C2DFFA2003DAB9C /* Recomendation 1 .md */,
 			);
 			path = "Interview TBANK";
 			sourceTree = "<group>";
@@ -523,6 +529,7 @@
 				47DA484649569CDB6472CB3D /* URLTest.swift */,
 				105184E3FB859E5A33DB8C29 /* WeakTest.swift */,
 				F5D2F5132C288E1900789EFA /* TypeErasure.swift */,
+				F51A78FC2C2B285C0060D846 /* Playground.playground */,
 			);
 			path = TestDirectory;
 			sourceTree = "<group>";
@@ -734,6 +741,7 @@
 				D59AA19F2BD63C11AD8BE36E /* ViewController.swift in Sources */,
 				6E71B83B82EDF3B4C408F1B1 /* ViewController1.swift in Sources */,
 				85F9EA9FE139AA75719F7A37 /* ViewController2.swift in Sources */,
+				F51A78FB2C2B25530060D846 /* Task.swift in Sources */,
 				A8CF3AA96351A3AFDF35193D /* WeakTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

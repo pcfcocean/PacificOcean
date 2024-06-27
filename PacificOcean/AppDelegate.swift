@@ -31,6 +31,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         //        DispatchSemaphoreTest()
         //        TypeErasure()
+
+        TaskTBank()
         return true
     }
 }
