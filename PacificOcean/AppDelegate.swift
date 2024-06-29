@@ -25,14 +25,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let cleanSwiftViewController = CleanSwiftAssembly.build(config: CleanSwift.Config(initialData: nil))
         let viewController = LifeCycleViewController()
 
-        let navigationController: UINavigationController = UINavigationController(rootViewController: mvcViewController)
+        let navigationController: UINavigationController = UINavigationController(rootViewController: viewController)
         window.rootViewController = navigationController
         window.makeKeyAndVisible()
 
-        //        DispatchSemaphoreTest()
-        //        TypeErasure()
+//        DispachTest().cancelWorkItemExample()
 
-        TaskTBank()
         return true
     }
 }

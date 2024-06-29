@@ -76,7 +76,7 @@
 		9CEE9276793E40D4FF2DBCA5 /* MASK.swift in Sources */ = {isa = PBXBuildFile; fileRef = F648616F970AE7ED55A4CA86 /* MASK.swift */; };
 		9E13CD0EA4CE4973F7D048A2 /* Timer.md in Resources */ = {isa = PBXBuildFile; fileRef = AC8A639340ADD954FE8E0B2B /* Timer.md */; };
 		9F0E6877C0B3DA2FA0111AB9 /* Combine.md in Resources */ = {isa = PBXBuildFile; fileRef = CBB50F8AEC7C9423E6408395 /* Combine.md */; };
-		A1B73D2E019BDEE15E26A3E0 /* DispachText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F0242782C9E28C83073194 /* DispachText.swift */; };
+		A1B73D2E019BDEE15E26A3E0 /* DispachTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F0242782C9E28C83073194 /* DispachTest.swift */; };
 		A3F2E3ED5057F982374A6A53 /* GuardTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D21F1B40D44712430A0542 /* GuardTest.swift */; };
 		A4AA6322DD17E2FDF677C7A1 /* Unit5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B7CCD55A058BF4673C7608 /* Unit5.swift */; };
 		A6910312C2175B332BE3C2C7 /* Unit6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC655149983E17E3A521231 /* Unit6.swift */; };
@@ -178,7 +178,7 @@
 		59DA4FA0CA935B8561D981A8 /* Архитектуры.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Архитектуры.md"; sourceTree = "<group>"; };
 		5CA64B16A6FD86799C2068C2 /* QueueTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTest.swift; sourceTree = "<group>"; };
 		5E60092018E9FC07C718E8FA /* ArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTest.swift; sourceTree = "<group>"; };
-		67F0242782C9E28C83073194 /* DispachText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispachText.swift; sourceTree = "<group>"; };
+		67F0242782C9E28C83073194 /* DispachTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispachTest.swift; sourceTree = "<group>"; };
 		69C7279CDA32A8F0FFB22DF8 /* CustomFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CustomFont.ttf; sourceTree = "<group>"; };
 		6C987E2A422267F112A6F06B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		717F9C0D4998A6BA2A12D569 /* Harbos.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Harbos.md; sourceTree = "<group>"; };
@@ -510,7 +510,7 @@
 				5E60092018E9FC07C718E8FA /* ArrayTest.swift */,
 				9FEDB56623973BB503D7D53A /* BreakTest.swift */,
 				9312B4934DB5C2A115D40188 /* Defer.swift */,
-				67F0242782C9E28C83073194 /* DispachText.swift */,
+				67F0242782C9E28C83073194 /* DispachTest.swift */,
 				9224B56A6C9398C7A260FAEC /* DispatchTest.swift */,
 				53D3908C716E272EC968F89A /* FastCodeCheck.swift */,
 				0000E0BC19FFE213EBC403B7 /* ForEachFor.swift */,
@@ -706,7 +706,7 @@
 				E70980B88F4273E95166E8D1 /* CleanSwiftViewController.swift in Sources */,
 				43D9F30D79192D89030125A1 /* CleanSwiftWorker.swift in Sources */,
 				1D2EFD500EC8EE68089C3C1F /* Defer.swift in Sources */,
-				A1B73D2E019BDEE15E26A3E0 /* DispachText.swift in Sources */,
+				A1B73D2E019BDEE15E26A3E0 /* DispachTest.swift in Sources */,
 				C20655C208EB5D08D5BD6459 /* DispatchTest.swift in Sources */,
 				E80999644D8B4E6502C9C953 /* FastCodeCheck.swift in Sources */,
 				3860735781FFAD1CDD979F1A /* FontsRegistrator.swift in Sources */,

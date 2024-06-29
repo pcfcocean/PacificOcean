@@ -63,31 +63,31 @@ https://swiftrocks.com/understanding-the-ios-responder-chain.html
 Архитектура
 
 SOLID Principles
-https://www.baeldung.com/solid-principles
++ https://www.baeldung.com/solid-principles
 
 DRY, KISS & YAGNI Principles
-https://www.boldare.com/blog/kiss-yagni-dry-principles/
++ https://www.boldare.com/blog/kiss-yagni-dry-principles/
 
 Design Patterns in Swift
-https://rubygarage.org/blog/swift-design-patterns
++ https://rubygarage.org/blog/swift-design-patterns
 
 Software Architecture
-https://martinfowler.com/architecture/
++ https://martinfowler.com/architecture/
 
 
 Тесты
 
 Test Definitions
-https://blog.cleancoder.com/uncle-bob/2017/05/05/TestDefinitions.html
++ https://blog.cleancoder.com/uncle-bob/2017/05/05/TestDefinitions.html
 
 XCTest Base Info
-https://developer.apple.com/documentation/xctest
++ https://developer.apple.com/documentation/xctest
 
 Given-When-Then Pattern
-https://ishtiz.com/swift-tips/what-is-given-when-then-testing-in-swift
++ https://ishtiz.com/swift-tips/what-is-given-when-then-testing-in-swift
 
 The Testing Pyramid
-https://automationpanda.com/2018/08/01/the-testing-pyramid/
++ https://automationpanda.com/2018/08/01/the-testing-pyramid/
 
 UI Testing using Page Object pattern in Swift
 https://swiftwithmajid.com/2021/03/24/ui-testing-using-page-object-pattern-in-swift/
