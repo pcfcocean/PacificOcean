@@ -354,6 +354,7 @@
 		3E180E975981800B71050583 /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
+				E11E2B198BF44603F4E3FC59 /* LottieManager */,
 				7908B09E9E3DFC53490A5179 /* Utils */,
 			);
 			path = DesignSystem;
@@ -455,7 +456,6 @@
 			children = (
 				F5D2F5152C289A6C00789EFA /* MVC */,
 				5AA463DAD7483CD7EBB6DAEA /* CleanSwift */,
-				E11E2B198BF44603F4E3FC59 /* LottieManager */,
 				89159FC42694CBCBA7676D33 /* Resources */,
 				A22205A6A99F734FF05CFC2B /* AppDelegate.swift */,
 				F16C77A27544A1EF0D10968A /* Assets.xcassets */,
