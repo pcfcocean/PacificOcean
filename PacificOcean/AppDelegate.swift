@@ -23,13 +23,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         let mvcViewController = MVC_Controller()
         let cleanSwiftViewController = CleanSwiftAssembly.build(config: CleanSwift.Config(initialData: nil))
-        let viewController = LifeCycleViewController()
+//        let viewController = LifeCycleViewController()
 
-        let navigationController: UINavigationController = UINavigationController(rootViewController: viewController)
+        let navigationController: UINavigationController = UINavigationController(rootViewController: cleanSwiftViewController)
         window.rootViewController = navigationController
         window.makeKeyAndVisible()
 
-//        DispachTest().cancelWorkItemExample()
+        CryptoTest()
 
         return true
     }

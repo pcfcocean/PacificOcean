@@ -119,11 +119,15 @@
 		F51A78FB2C2B25530060D846 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A78FA2C2B25530060D846 /* Task.swift */; };
 		F56C8C7D42E789069602F225 /* Unit4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6991F474D3992AFFD8DAFA /* Unit4.swift */; };
 		F59E83996731283BA23C32CF /* AnimatableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0E514EF2D590AE63665212 /* AnimatableView.swift */; };
+		F5A5B8942C3826E500333734 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A5B8932C3826E500333734 /* Crypto.swift */; };
+		F5A5B8972C3833A700333734 /* OnlyDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A5B8962C3833A700333734 /* OnlyDigits.swift */; };
 		F5D2F5112C2717FF00789EFA /* Unit11.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2F5102C2717FF00789EFA /* Unit11.swift */; };
 		F5D2F5142C288E1900789EFA /* TypeErasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2F5132C288E1900789EFA /* TypeErasure.swift */; };
 		F5D2F5172C289A9700789EFA /* MVC_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2F5162C289A9700789EFA /* MVC_Model.swift */; };
 		F5D2F5192C289AA300789EFA /* MVC_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2F5182C289AA300789EFA /* MVC_View.swift */; };
 		F5D2F51B2C289AAE00789EFA /* MVC_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2F51A2C289AAE00789EFA /* MVC_Controller.swift */; };
+		F5E4CB912C32A4BD00138A0B /* Step2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E4CB902C32A4BD00138A0B /* Step2.swift */; };
+		F5E4CB932C32C8C400138A0B /* CLEAN_SWIFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E4CB922C32C8C400138A0B /* CLEAN_SWIFT.swift */; };
 		F6C3CEC2F703F5C0153F0BA8 /* Vision.md in Resources */ = {isa = PBXBuildFile; fileRef = 2D98441E70F28212050A5BA8 /* Vision.md */; };
 		F867D7B4B5349613BD2EDFC1 /* RegularExpression.md in Resources */ = {isa = PBXBuildFile; fileRef = D9313A2E251C02E189543624 /* RegularExpression.md */; };
 		F90C033F204CF9B55AE43FBC /* TrashFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9EBE27454A4C50E9360058 /* TrashFile.swift */; };
@@ -249,12 +253,16 @@
 		F51A78FA2C2B25530060D846 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		F51A78FC2C2B285C0060D846 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F57ADECE2C2DFFA2003DAB9C /* Recomendation 1 .md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Recomendation 1 .md"; sourceTree = "<group>"; };
+		F5A5B8932C3826E500333734 /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		F5A5B8962C3833A700333734 /* OnlyDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyDigits.swift; sourceTree = "<group>"; };
 		F5D2F5102C2717FF00789EFA /* Unit11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit11.swift; sourceTree = "<group>"; };
 		F5D2F5122C272A4C00789EFA /* Memory, Value and Ref types.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Memory, Value and Ref types.md"; sourceTree = "<group>"; };
 		F5D2F5132C288E1900789EFA /* TypeErasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeErasure.swift; sourceTree = "<group>"; };
 		F5D2F5162C289A9700789EFA /* MVC_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVC_Model.swift; sourceTree = "<group>"; };
 		F5D2F5182C289AA300789EFA /* MVC_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVC_View.swift; sourceTree = "<group>"; };
 		F5D2F51A2C289AAE00789EFA /* MVC_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVC_Controller.swift; sourceTree = "<group>"; };
+		F5E4CB902C32A4BD00138A0B /* Step2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step2.swift; sourceTree = "<group>"; };
+		F5E4CB922C32C8C400138A0B /* CLEAN_SWIFT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLEAN_SWIFT.swift; sourceTree = "<group>"; };
 		F648616F970AE7ED55A4CA86 /* MASK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MASK.swift; sourceTree = "<group>"; };
 		FC175633B4BE26FCB561CB58 /* AnimationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -374,6 +382,7 @@
 		5AA463DAD7483CD7EBB6DAEA /* CleanSwift */ = {
 			isa = PBXGroup;
 			children = (
+				F5E4CB922C32C8C400138A0B /* CLEAN_SWIFT.swift */,
 				E88C4E12B2D90AA82E8B5FC0 /* CleanSwiftAssembly.swift */,
 				38BB13A96FAAB87087ED1F82 /* CleanSwiftInteractor.swift */,
 				8E30C65A301CC00AD17670B7 /* CleanSwiftModels.swift */,
@@ -500,6 +509,7 @@
 				4844D9BF78FD7BE3BBCDD919 /* Recommended resources.md */,
 				F51A78FA2C2B25530060D846 /* Task.swift */,
 				F57ADECE2C2DFFA2003DAB9C /* Recomendation 1 .md */,
+				F5E4CB902C32A4BD00138A0B /* Step2.swift */,
 			);
 			path = "Interview TBANK";
 			sourceTree = "<group>";
@@ -507,6 +517,7 @@
 		C3862EF2A5E6BFF0E0CBED2C /* TestDirectory */ = {
 			isa = PBXGroup;
 			children = (
+				F5A5B8952C38338E00333734 /* OnlyDigits */,
 				5E60092018E9FC07C718E8FA /* ArrayTest.swift */,
 				9FEDB56623973BB503D7D53A /* BreakTest.swift */,
 				9312B4934DB5C2A115D40188 /* Defer.swift */,
@@ -530,6 +541,8 @@
 				105184E3FB859E5A33DB8C29 /* WeakTest.swift */,
 				F5D2F5132C288E1900789EFA /* TypeErasure.swift */,
 				F51A78FC2C2B285C0060D846 /* Playground.playground */,
+				F5A5B8932C3826E500333734 /* Crypto.swift */,
+				F5A5B8962C3833A700333734 /* OnlyDigits.swift */,
 			);
 			path = TestDirectory;
 			sourceTree = "<group>";
@@ -543,6 +556,13 @@
 				A8782DBDB03445B8B0F0F434 /* LOTAnimationView+Extensions.swift */,
 			);
 			path = LottieManager;
+			sourceTree = "<group>";
+		};
+		F5A5B8952C38338E00333734 /* OnlyDigits */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OnlyDigits;
 			sourceTree = "<group>";
 		};
 		F5D2F5152C289A6C00789EFA /* MVC */ = {
@@ -711,15 +731,18 @@
 				E80999644D8B4E6502C9C953 /* FastCodeCheck.swift in Sources */,
 				3860735781FFAD1CDD979F1A /* FontsRegistrator.swift in Sources */,
 				C637FA852FF48F2AF70DD13B /* ForEachFor.swift in Sources */,
+				F5A5B8942C3826E500333734 /* Crypto.swift in Sources */,
 				A3F2E3ED5057F982374A6A53 /* GuardTest.swift in Sources */,
 				7EF5C55C4B27465916B94727 /* LOTAnimationView+Extensions.swift in Sources */,
 				9A661DAF07E99EC7AFA51A5D /* LetVarTest.swift in Sources */,
 				9CEE9276793E40D4FF2DBCA5 /* MASK.swift in Sources */,
 				7EB404D71325400F1F38DAAC /* MagicLayout.swift in Sources */,
 				DCC330062115FD3C97A77AAF /* QueueTest.swift in Sources */,
+				F5E4CB912C32A4BD00138A0B /* Step2.swift in Sources */,
 				467A834038C05AC77F4BFE51 /* ReGex.swift in Sources */,
 				F5D2F5172C289A9700789EFA /* MVC_Model.swift in Sources */,
 				E858F5FFFCE901AB21A24D0A /* ReaderAndWriter.swift in Sources */,
+				F5A5B8972C3833A700333734 /* OnlyDigits.swift in Sources */,
 				AD680DAAED919CA9D6FC82EC /* Regexes.swift in Sources */,
 				E19F059B6503AB1B50318CBA /* ReturnTest.swift in Sources */,
 				BB27B743F8DFFFABEAA45AB3 /* Reversed.swift in Sources */,
@@ -731,6 +754,7 @@
 				8EC8180CC39362BB58CFB8B4 /* URLTest.swift in Sources */,
 				BB7FBA78BE655D35FECD0771 /* Unit1.swift in Sources */,
 				9380792578F6F46869B4AB8A /* Unit2.swift in Sources */,
+				F5E4CB932C32C8C400138A0B /* CLEAN_SWIFT.swift in Sources */,
 				92EED20B513EE5069987F8E1 /* Unit3.swift in Sources */,
 				F56C8C7D42E789069602F225 /* Unit4.swift in Sources */,
 				F5D2F5142C288E1900789EFA /* TypeErasure.swift in Sources */,
