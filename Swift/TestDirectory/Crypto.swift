@@ -2,83 +2,81 @@
 //  Crypto.swift
 //  PacificOcaen
 //
-//  Created by Vlad Lesnichiy on 5.07.24.
 //
+
+// https://stackoverflow.com/questions/73454717/how-do-i-parse-an-x509-certificate-and-extract-its-keys-signature-in-swift
 
 
 import Foundation
 import CryptoKit
 import Security
 
-struct RsaKeys {
-    let privateKey: SecKey?
-    let publicKey: SecKey?
+struct RSACrypter {
+    init() {}
 
-    init() {
+    func test() {
+        var error: Unmanaged<CFError>?
         let attributes: [String: Any] = [
             kSecAttrKeyType as String: kSecAttrKeyTypeRSA,
-            kSecAttrKeySizeInBits as String: 2048,
+            kSecAttrKeySizeInBits as String: 2048
         ]
+
         guard
-            let privateKey: SecKey = SecKeyCreateRandomKey(attributes as CFDictionary, nil),
-            let publicKey: SecKey = SecKeyCopyPublicKey(privateKey)
+            let privateKey: SecKey = SecKeyCreateRandomKey(attributes as CFDictionary, &error),
+            let publicKey: SecKey = SecKeyCopyPublicKey(privateKey),
+            let publicKeyData = SecKeyCopyExternalRepresentation(publicKey, &error) as Data?
         else {
-            self.privateKey = nil
-            self.publicKey = nil
+            print(error.debugDescription)
             return
         }
-        self.privateKey = privateKey
-        self.publicKey = publicKey
-    }
-}
 
-struct CryptoTest {
-
-    init() {
-        let rsaKeys = RsaKeys()
-        print(rsaKeys.privateKey)
-        print(rsaKeys.publicKey)
-        print()
-
-        if let publicKeyPEM = secKeyToPEM(rsaKeys.publicKey!) {
-            print("Ключ в формате PEM:")
-            print(publicKeyPEM)
-        } else {
-            print("Не удалось преобразовать ключ в формат PEM")
+        guard let dataToEncrypt: Data = String(repeating: "1", count: 190).data(using: .utf8) else {
+            print("Ошибка создания данных")
+            return
         }
 
+        print(dataToEncrypt.count)
 
-        let dataToEncrypt: Data = "Hello, World!".data(using: .utf8)!
-        print("dataToEncrypt: \(dataToEncrypt)")
+        guard let encryptedData = encryptData(data: dataToEncrypt, publicKey: publicKey) else { return }
 
-        let encryptedData = encryptData(data: dataToEncrypt, publicKey: rsaKeys.publicKey!)
-        let decryptedData = decryptData(encryptedData: encryptedData!, privateKey: rsaKeys.privateKey!)
-        let decryptedString = String(data: decryptedData!, encoding: .utf8)
+        print(encryptedData.count)
+
+        guard let decryptedData = decryptData(encryptedData: encryptedData, privateKey: privateKey) else { return }
+        let decryptedString = String(data: decryptedData, encoding: .utf8)
         print(decryptedString)
     }
 
     /// Шифрование данных с использованием открытого ключа
     func encryptData(data: Data, publicKey: SecKey) -> Data? {
-        return SecKeyCreateEncryptedData(publicKey, .rsaEncryptionOAEPSHA256, data as CFData, nil) as? Data
-    }
-    /// Дешифрование данных с использованием закрытого ключа
-    func decryptData(encryptedData: Data, privateKey: SecKey) -> Data? {
-        return SecKeyCreateDecryptedData(privateKey, .rsaEncryptionOAEPSHA256, encryptedData as CFData, nil) as? Data
-    }
-
-    func secKeyToPEM(_ key: SecKey) -> String? {
         var error: Unmanaged<CFError>?
-        guard let data = SecKeyCopyExternalRepresentation(key, &error) as Data? else {
-            print("Ошибка при получении внешнего представления ключа: \(error!.takeUnretainedValue() as Error)")
+        guard
+            let encryptedData: Data = SecKeyCreateEncryptedData(
+                publicKey,
+                .rsaEncryptionPKCS1,
+                data as CFData,
+                &error
+            ) as? Data
+        else {
+            print("Ошибка шифрования", error.debugDescription)
             return nil
         }
+        return encryptedData
+    }
 
-        let pemString = data.base64EncodedString()
-        return """
-    -----BEGIN PUBLIC KEY-----
-    \(pemString)
-    -----END PUBLIC KEY-----
-    """
+    /// Дешифрование данных с использованием закрытого ключа
+    func decryptData(encryptedData: Data, privateKey: SecKey) -> Data? {
+        var error: Unmanaged<CFError>?
+        guard
+            let decryptedData: Data = SecKeyCreateDecryptedData(
+                privateKey,
+                .rsaEncryptionPKCS1,
+                encryptedData as CFData,
+                &error
+            ) as? Data
+        else {
+            print("Ошибка дешифрования", error.debugDescription)
+            return nil
+        }
+        return decryptedData
     }
 }
-

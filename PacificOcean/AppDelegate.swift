@@ -29,7 +29,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window.rootViewController = navigationController
         window.makeKeyAndVisible()
 
-        CryptoTest()
+        RSACrypter().test()
+        Coder().test()
+        Coder().jsonerTest()
 
         return true
     }

@@ -118,6 +118,7 @@
 		F33990335B4ECD120B041F89 /* Алгоритмы.md in Resources */ = {isa = PBXBuildFile; fileRef = 24C7CE01007C558BEF88E0F3 /* Алгоритмы.md */; };
 		F51A78FB2C2B25530060D846 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A78FA2C2B25530060D846 /* Task.swift */; };
 		F56C8C7D42E789069602F225 /* Unit4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6991F474D3992AFFD8DAFA /* Unit4.swift */; };
+		F56E906F2C4436FC0009E25B /* Coder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56E906E2C4436FC0009E25B /* Coder.swift */; };
 		F59E83996731283BA23C32CF /* AnimatableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0E514EF2D590AE63665212 /* AnimatableView.swift */; };
 		F5A5B8942C3826E500333734 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A5B8932C3826E500333734 /* Crypto.swift */; };
 		F5A5B8972C3833A700333734 /* OnlyDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A5B8962C3833A700333734 /* OnlyDigits.swift */; };
@@ -252,6 +253,7 @@
 		F1A9BAB2ADEA24D30C949A66 /* Оффлайн-режим на iOS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Оффлайн-режим на iOS.md"; sourceTree = "<group>"; };
 		F51A78FA2C2B25530060D846 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		F51A78FC2C2B285C0060D846 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F56E906E2C4436FC0009E25B /* Coder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coder.swift; sourceTree = "<group>"; };
 		F57ADECE2C2DFFA2003DAB9C /* Recomendation 1 .md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Recomendation 1 .md"; sourceTree = "<group>"; };
 		F5A5B8932C3826E500333734 /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
 		F5A5B8962C3833A700333734 /* OnlyDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyDigits.swift; sourceTree = "<group>"; };
@@ -543,6 +545,7 @@
 				F51A78FC2C2B285C0060D846 /* Playground.playground */,
 				F5A5B8932C3826E500333734 /* Crypto.swift */,
 				F5A5B8962C3833A700333734 /* OnlyDigits.swift */,
+				F56E906E2C4436FC0009E25B /* Coder.swift */,
 			);
 			path = TestDirectory;
 			sourceTree = "<group>";
@@ -727,6 +730,7 @@
 				43D9F30D79192D89030125A1 /* CleanSwiftWorker.swift in Sources */,
 				1D2EFD500EC8EE68089C3C1F /* Defer.swift in Sources */,
 				A1B73D2E019BDEE15E26A3E0 /* DispachTest.swift in Sources */,
+				F56E906F2C4436FC0009E25B /* Coder.swift in Sources */,
 				C20655C208EB5D08D5BD6459 /* DispatchTest.swift in Sources */,
 				E80999644D8B4E6502C9C953 /* FastCodeCheck.swift in Sources */,
 				3860735781FFAD1CDD979F1A /* FontsRegistrator.swift in Sources */,
